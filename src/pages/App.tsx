@@ -1,4 +1,4 @@
-import { Box, Button, Flex } from '@mantine/core';
+import { Box, Flex } from '@mantine/core';
 import { List } from '../features/list';
 import { Map } from '../features/map';
 import { ItemForm } from '../features/form';
@@ -9,7 +9,7 @@ function App() {
     <>
       <Flex component="main" p="lg">
         <Box flex={1} p="lg">
-          <Flex direction={'column'}>
+          <Flex direction="column">
             <ItemForm />
             <List />
           </Flex>
