@@ -93,7 +93,7 @@ const Map = observer(() => {
   }
 
   return (
-    <div ref={containerRef} style={{ flex: 1, height: '100%' }}>
+    <div ref={containerRef} style={{ flex: 1, height: '80%' }}>
       <Stage
         scaleX={scale}
         scaleY={scale}
