@@ -1,0 +1,7 @@
+main {
+  height: 100vh;
+}
+
+.konvajs-content {
+  min-width: 100%;
+}
